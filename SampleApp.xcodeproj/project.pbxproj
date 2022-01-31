@@ -13,6 +13,10 @@
 		BDF09CE227A7D72200820261 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDF09CE027A7D72200820261 /* Main.storyboard */; };
 		BDF09CE427A7D72500820261 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF09CE327A7D72500820261 /* Assets.xcassets */; };
 		BDF09CE727A7D72500820261 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDF09CE527A7D72500820261 /* LaunchScreen.storyboard */; };
+		BDF09CEF27A7D77000820261 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF09CEE27A7D77000820261 /* Model.swift */; };
+		BDF09CF127A7D8AD00820261 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF09CF027A7D8AD00820261 /* APIService.swift */; };
+		BDF09CF327A7DC6C00820261 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF09CF227A7DC6C00820261 /* ViewModel.swift */; };
+		BDF09CF527A7E5F000820261 /* MyCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF09CF427A7E5F000820261 /* MyCustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		BDF09CE327A7D72500820261 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDF09CE627A7D72500820261 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDF09CE827A7D72500820261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDF09CEE27A7D77000820261 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		BDF09CF027A7D8AD00820261 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		BDF09CF227A7DC6C00820261 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		BDF09CF427A7E5F000820261 /* MyCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				BDF09CE327A7D72500820261 /* Assets.xcassets */,
 				BDF09CE527A7D72500820261 /* LaunchScreen.storyboard */,
 				BDF09CE827A7D72500820261 /* Info.plist */,
+				BDF09CEE27A7D77000820261 /* Model.swift */,
+				BDF09CF027A7D8AD00820261 /* APIService.swift */,
+				BDF09CF227A7DC6C00820261 /* ViewModel.swift */,
+				BDF09CF427A7E5F000820261 /* MyCustomCell.swift */,
 			);
 			path = SampleApp;
 			sourceTree = "<group>";
@@ -139,8 +151,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDF09CDF27A7D72200820261 /* ViewController.swift in Sources */,
+				BDF09CF127A7D8AD00820261 /* APIService.swift in Sources */,
 				BDF09CDB27A7D72200820261 /* AppDelegate.swift in Sources */,
+				BDF09CF527A7E5F000820261 /* MyCustomCell.swift in Sources */,
 				BDF09CDD27A7D72200820261 /* SceneDelegate.swift in Sources */,
+				BDF09CF327A7DC6C00820261 /* ViewModel.swift in Sources */,
+				BDF09CEF27A7D77000820261 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
